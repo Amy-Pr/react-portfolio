@@ -10,15 +10,15 @@
 :root {
   --body-bg: #fef2dc;
   --header-text: #fef7e9;
-  --body-text: #050505;
-  --headings: #b65949;
-  --primary: #006361;
-  --primary-shadow: #0d4645;
-  --secondary: #d8a25a;
-  --secondary-shadow: #ab8147;
+  --body-text: #095256;
+  --headings: #095256;
+  --primary: #087e8b;
+ /*--primary-shadow: #0d4645;*/
+  --secondary: #bdbf09;
+  /*--secondary-shadow: #ab8147;*/
   --white: #ffffff;
 
-  font-family: 'Young Serif', serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   scroll-behavior: smooth;
 }
@@ -55,7 +55,7 @@ h1 {
   font-size: 3rem;
   line-height: 1;
   margin-bottom: 1rem;
-  color: var(--headings);
+  color: var(--secondary);
 }
 
 h2 {
@@ -68,7 +68,7 @@ h3 {
   font-weight: 400;
   margin-bottom: 0.5rem;
   font-size: 1rem;
-  color: var(--primary);
+  color: var(--headings);
 }
 
 li {
@@ -195,7 +195,7 @@ header button:hover {
 
 .hero p {
   font-size: 1.2rem;
-  color: var(--secondary);
+  color: var(--body-text);
 }
 
 .hero p:last-of-type {
@@ -264,7 +264,7 @@ header button:hover {
 .contact p {
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
-  color: var(--primary);
+  color: var(--body-text);
 }
 
 .socials-container {
