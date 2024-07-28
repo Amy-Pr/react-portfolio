@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 /* Universal Presets */
 * {
   box-sizing: border-box;
@@ -13,9 +14,9 @@
   --body-text: #095256;
   --headings: #095256;
   --primary: #087e8b;
- /*--primary-shadow: #0d4645;*/
+  /* --primary-shadow: #06545d; */
   --secondary: #bdbf09;
-  /*--secondary-shadow: #ab8147;*/
+  --secondary-shadow: #95972a; 
   --white: #ffffff;
 
   font-family: "Roboto", sans-serif;
