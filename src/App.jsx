@@ -9,8 +9,9 @@ const App = () => {
   return (
     <div>
       <Header />
+      <Hero />
       <main>
-        <Hero />
+        {/* <Hero /> */}
         <About />
         <Projects />
         <Contact />

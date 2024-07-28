@@ -172,7 +172,13 @@ header button:hover {
 
 /* HERO SECTION */
 
-.hero .image {
+.hero {
+  background: url(./assets/hero-image.png) right top no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+/* .hero .image {
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
@@ -193,7 +199,7 @@ header button:hover {
   z-index: 10;
   width: 200px;
   background-color: var(--body-bg);
-}
+} */
 
 .hero p {
   font-size: 1.2rem;
@@ -314,6 +320,7 @@ footer {
 }
 
 /* MEDIA QUERIES */
+/* TODO: Fix hero section for tablet and phone sizes */
 
 @media (min-width: 1024px) {
   header button {
@@ -336,10 +343,14 @@ footer {
     gap: 3rem;
   }
 
-  .hero {
+  /* .hero {
     flex-direction: row-reverse;
     justify-content: space-between;
     text-align: left;
+  } */
+
+  .intro {
+    padding-top: 200px;
   }
 
   .project {
@@ -366,6 +377,7 @@ footer {
 
   header,
   main,
+  .hero,
   footer {
     max-width: 992px;
     margin-inline: auto;
