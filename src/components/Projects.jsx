@@ -66,7 +66,7 @@ const Projects = () => {
       <h2>My Projects</h2>
       <div>
         {projectList.map((project, i) => (
-          <Project key={project.id} data={project} reverse={i % 2 === 0} /> //reverse prop targets the even indexes
+          <Project key={project.id} data={project}/> //reverse prop targets the even indexes
         ))}
 
 

@@ -1,7 +1,7 @@
 import Link from "./Link";
 
 
-const Project = ({ data, reverse }) => {
+const Project = ({ data }) => {
     return (
         <article className="project">
             <div className="image">
