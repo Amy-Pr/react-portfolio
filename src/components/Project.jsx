@@ -3,11 +3,7 @@ import Link from "./Link";
 
 const Project = ({ data, reverse }) => {
     return (
-        <article 
-            className="project"
-            style={{
-                flexDirection: reverse ? 'row-reverse' : 'row'
-            }}>
+        <article className="project">
             <div className="image">
                 <img src={data.image} alt={data.title} />
             </div>

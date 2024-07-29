@@ -23,7 +23,7 @@ const About = () => {
           gained the knowledge and expertise, but also the confidence to tackle
           any web development challenge that comes my way.
         </p>
-        <Link href="#">Download my Resume</Link>
+        <Link href="#">Visit my LinkedIn Profile</Link>
       </section>
     )
 }

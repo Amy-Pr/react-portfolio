@@ -230,16 +230,17 @@ header button:hover {
   width: 100%;
   height: auto;
   margin-bottom: 0.5rem;
-  aspect-ratio: 16/9;
+  /* aspect-ratio: 16/9; */
   border-radius: 4px;
   overflow: hidden;
+  border: 1px solid #b7b7b7;
 }
+
 
 .project .content {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
-  text-align: center;
 }
 
 .project .content ul {
@@ -356,10 +357,11 @@ footer {
   .project {
     display: flex;
     gap: 2rem;
-    align-items: center;
+    align-items: flex-start;
     text-align: left;
     margin-bottom: 4rem;
   }
+  
   .project div {
     flex-basis: 50%;
   }

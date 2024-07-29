@@ -1,56 +1,79 @@
-import storyGenerator from "../assets/ai-story-generator.png";
-import businessCard from "../assets/business-card.png";
-import svgAnimations from "../assets/svg-animations.png";
+import smartShopping from "../assets/smart-shopping-img-resized.png";
+import guessWord from "../assets/guess-word-thumb.png";
+import stickynotes from "../assets/sticky-notes-thumb.png";
+import accelerate from "../assets/accelerate-thumb.png";
+import speechlibrary from "../assets/speechlibrary-thumb.png";
 import Project from "./Project";
 
 const projectList = [
-    {
-      id: 1,
-      title: 'AI Story Generator',
-      tech: ['React', 'Tailwind', 'TypeScript'],
-      description:
-        'I created a random story generator using React and Tailwind, with a series of prompts a story and matching images will be generated using the OpenAI api!',
-      liveLink: '#',
-      githubLink: '#',
-      image: storyGenerator,
-    },
-    {
-      id: 2,
-      title: 'Digital Business Card',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      description:
-        "This project was created for Treehouse's Front End Web Development TechDegree",
-      liveLink: '#',
-      githubLink: '#',
-      image: businessCard,
-    },
-    {
-      id: 3,
-  
-      title: 'SVG Animations',
-      tech: ['HTML', 'CSS'],
-      description:
-        'I learnt to create SVG animations using CSS. I also got to implement more advanced CSS techniques like clip-path and keyframes. I had also struggled with media queries before, but this project really helped!',
-      liveLink: '#',
-      githubLink: '#',
-      image: svgAnimations,
-    },
-  ];
+  {
+    id: 1,
+    title: 'Speech Teletherapy Library',
+    tech: ['React', 'Javascript/JSX', 'MUI'],
+    description:
+      "A passion project to help speech therapist colleagues locate free resources on the web. Features custom built filter chips and React components from Material-UI. Database built with Firebase/Firestore.",
+    liveLink: '#',
+    githubLink: '#',
+    image: speechlibrary,
+  },
+  {
+    id: 2,
+    title: 'Smart Shopping List',
+    tech: ['React', 'Javascript/JSX', 'MUI'],
+    description:
+      "A web application that automatically predicts when it's time to stock up based on previous buying behavior. This was an Agile team project with The Collab Lab. It employs React, Material-UI, and Firebase.",
+    liveLink: '#',
+    githubLink: '#',
+    image: smartShopping,
+  },
+  {
+    id: 3,
+    title: 'Super Sticky Notes',
+    tech: ['React', 'Javascript/JSX'],
+    description:
+      "This handy web-based app allows the user to create, edit, and search custom notes. I recently refactored it to implement React hooks.",
+    liveLink: '#',
+    githubLink: '#',
+    image: stickynotes,
+  },
+
+  {
+    id: 4,
+    title: 'Accelerate Website',
+    tech: ['HTML', 'CSS', 'WordPress'],
+    description:
+      "This is a multi-page, responsive, and dynamic website for a fictional marketing company. This site was built by creating custom templates in WordPress employing PHP.",
+    liveLink: '#',
+    githubLink: '#',
+    image: accelerate,
+  },
+
+  {
+    id: 5,
+    title: 'Guess The Word Game',
+    tech: ['HTML', 'CSS', 'Javascript'],
+    description:
+      "This is an interactive game that prompts you to guess a random word. It is designed to be fully responsive and can be played on a mobile phone. Built with vanilla Javascript.",
+    liveLink: '#',
+    githubLink: '#',
+    image: guessWord,
+  },
+];
 
 const Projects = () => {
-    return(
-        <section id="projects" className="divider">
-            <h2>My Projects</h2>
-            <div>
-                {projectList.map((project, i) => (
-                    <Project key={project.id} data={project} reverse={i % 2 === 0}/> //reverse prop targets the even indexes
-                ))}
+  return (
+    <section id="projects" className="divider">
+      <h2>My Projects</h2>
+      <div>
+        {projectList.map((project, i) => (
+          <Project key={project.id} data={project} reverse={i % 2 === 0} /> //reverse prop targets the even indexes
+        ))}
 
-                
-            </div>
-        </section>
 
-    )
+      </div>
+    </section>
+
+  )
 }
 
 export default Projects; 
