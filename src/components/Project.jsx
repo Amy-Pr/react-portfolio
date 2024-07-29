@@ -8,7 +8,7 @@ const Project = ({ data }) => {
                 <img src={data.image} alt={data.title} />
             </div>
             <div className="content">
-                <h3>{data.title}</h3>
+                <h3><a href={data.liveLink}>{data.title}</a></h3>
                 <ul>
                     {data.tech.map((tech) => (
                         <li key={tech}>{tech}</li>
