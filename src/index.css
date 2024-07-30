@@ -178,13 +178,13 @@ header button:hover {
   min-height: 500px;
 }
 
-/* .hero .image {
+.about .image {
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
 }
 
-.hero .image:after {
+.about .image:after {
   content: '';
   position: absolute;
   rotate: 10deg;
@@ -194,12 +194,12 @@ header button:hover {
   background-color: var(--secondary);
 }
 
-.hero .image img {
+.about .image img {
   position: absolute;
   z-index: 10;
   width: 200px;
   background-color: var(--body-bg);
-} */
+}
 
 .hero p {
   font-size: 1.2rem;
