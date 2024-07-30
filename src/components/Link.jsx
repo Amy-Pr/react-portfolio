@@ -1,6 +1,6 @@
 const Link = ({href, children}) => {
     return(
-        <a href={href} className="btn">{children}</a>
+        <a href={href} className="btn" target="_blank">{children}</a>
     )
 }
 

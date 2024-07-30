@@ -12,8 +12,8 @@ const projectList = [
     tech: ['React', 'Javascript/JSX', 'MUI'],
     description:
       "A passion project to help speech therapist colleagues locate free resources on the web. Features custom built filter chips and React components from Material-UI. Database built with Firebase/Firestore.",
-    liveLink: '#',
-    githubLink: '#',
+    liveLink: 'https://speechlibrary.netlify.app/',
+    githubLink: 'https://github.com/Amy-Pr/therapy-resource-library-react-vite',
     image: speechlibrary,
   },
   {
@@ -22,8 +22,8 @@ const projectList = [
     tech: ['React', 'Javascript/JSX', 'MUI'],
     description:
       "A web application that automatically predicts when it's time to stock up based on previous buying behavior. This was an Agile team project with The Collab Lab. It employs React, Material-UI, and Firebase.",
-    liveLink: '#',
-    githubLink: '#',
+    liveLink: 'https://ap-smart-shopping-list.netlify.app/',
+    githubLink: 'https://github.com/Amy-Pr/ap-tcl-smart-shopping-list',
     image: smartShopping,
   },
   {
@@ -32,8 +32,8 @@ const projectList = [
     tech: ['React', 'Javascript/JSX'],
     description:
       "This handy web-based app allows the user to create, edit, and search custom notes. I recently refactored it to implement React hooks.",
-    liveLink: '#',
-    githubLink: '#',
+    liveLink: 'https://super-sticky-notes.netlify.app/',
+    githubLink: 'https://github.com/Amy-Pr/super-sticky-notes',
     image: stickynotes,
   },
 
@@ -54,8 +54,8 @@ const projectList = [
     tech: ['HTML', 'CSS', 'Javascript'],
     description:
       "This is an interactive game that prompts you to guess a random word. It is designed to be fully responsive and can be played on a mobile phone. Built with vanilla Javascript.",
-    liveLink: '#',
-    githubLink: '#',
+    liveLink: 'https://amy-pr.github.io/guess-the-word/',
+    githubLink: 'https://github.com/Amy-Pr/guess-the-word',
     image: guessWord,
   },
 ];
