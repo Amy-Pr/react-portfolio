@@ -33,7 +33,7 @@ const About = () => {
         </p>
       </div>
 
-      <Link href="#">Visit my LinkedIn Profile</Link>
+      <Link href="https://www.linkedin.com/in/amy-preci-developer">Visit my LinkedIn Profile</Link>
 
     </section>
   )

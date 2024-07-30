@@ -6,8 +6,8 @@ const Contact = () => {
             <h2>Contact</h2>
             <p>Let&apos;s connect and create together.</p>
             <div className="socials-container">
-                <a href="#"><Icons.linkedin /></a>
-                <a href="#"><Icons.github /></a>
+                <a href="https://www.linkedin.com/in/amy-preci-developer" target="_blank"><Icons.linkedin /></a>
+                <a href="https://github.com/Amy-Pr" target="_blank"><Icons.github /></a>
             </div>
         </section>
     )
