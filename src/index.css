@@ -34,7 +34,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 1rem;
+  padding: 5rem 1rem;
   background-color: var(--white);
   margin-inline: 1rem;
 }
@@ -43,6 +43,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   max-width: 470px;
   margin-bottom: 3.5rem;
 }
@@ -176,6 +177,8 @@ header button:hover {
   background: url(./assets/hero-image.png) right top no-repeat;
   background-size: cover;
   min-height: 500px;
+  max-width: none;
+  margin: 0 1rem;
 }
 
 
@@ -241,6 +244,7 @@ header button:hover {
 .project .content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0.6rem;
 }
 
@@ -352,7 +356,7 @@ footer {
   } */
 
   .intro {
-    padding-top: 200px;
+    padding-top: 5rem;
   }
 
   .project {
