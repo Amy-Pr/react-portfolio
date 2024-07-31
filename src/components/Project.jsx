@@ -16,7 +16,9 @@ const Project = ({ data }) => {
                 </ul>
                 <p>{data.description}</p>
                 <div>
-                    <Link href={data.liveLink}>Live Site</Link>
+                    <Link href={data.liveLink}>
+                    {data.title === "Accelerate Website" ? "Case Study" : "Live Site"}
+                    </Link>
                     <Link href={data.githubLink}>GitHub</Link>
                 </div>
             </div>
