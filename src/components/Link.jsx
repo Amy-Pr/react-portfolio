@@ -1,6 +1,6 @@
-const Link = ({href, children}) => {
+const Link = ({href, children, noTarget}) => {
     return(
-        <a href={href} className="btn">{children}</a>
+        <a href={href} className="btn" target={noTarget ? null : "_blank"}>{children}</a>
     )
 }
 

@@ -7,7 +7,7 @@ const Hero = () => {
                 <h1>Hello, I'm Amy Preci</h1>
                 <p>I am a Web Developer in</p>
                 <p>Portland, Oregon</p>
-                <Link href="#projects">Check out my work</Link>
+                <Link href="#projects" noTarget>Check out my work</Link>
             </div>
         </section>
     )
