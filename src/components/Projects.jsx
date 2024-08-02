@@ -32,8 +32,8 @@ const projectList = [
     tech: ['React', 'Javascript/JSX'],
     description:
       "This handy web-based app allows the user to create, edit, and search custom notes. I recently refactored it to implement React hooks.",
-    liveLink: 'https://super-sticky-notes.netlify.app/',
-    githubLink: 'https://github.com/Amy-Pr/super-sticky-notes',
+    liveLink: 'https://superstickynotes-app.netlify.app/',
+    githubLink: 'https://github.com/Amy-Pr/super-sticky-notes-app',
     image: stickynotes,
   },
 
