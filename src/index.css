@@ -305,12 +305,22 @@ header button:hover {
 /* FOOTER */
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-block: 1.5rem;
   font-size: 0.75rem;
   color: var(--header-text);
   background-color: var(--primary);
   margin-inline: 1rem;
 }
+
+footer img {
+  width: 8%;
+}
+
+
+/*Nav*/
 
 .nav {
   position: absolute;
@@ -424,9 +434,9 @@ footer {
     margin-bottom: 1rem;
   }
 
-  footer {
+  /* footer {
     padding-block: 3rem;
-  }
+  } */
 
   h1 {
     font-size: 4rem;
