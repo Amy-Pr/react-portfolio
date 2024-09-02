@@ -1,7 +1,8 @@
 import smartShopping from "../assets/smart-shopping-img-resized.png";
 import guessWord from "../assets/guess-word-thumb.png";
 import stickynotes from "../assets/sticky-notes-thumb.png";
-import accelerate from "../assets/accelerate-thumb.png";
+// import accelerate from "../assets/accelerate-thumb.png";
+import reactTheme from "../assets/react-context-thumb8.png";
 import speechlibrary from "../assets/speechlibrary-thumb.png";
 import Project from "./Project";
 
@@ -37,15 +38,26 @@ const projectList = [
     image: stickynotes,
   },
 
+  // {
+  //   id: 4,
+  //   title: 'Accelerate Website',
+  //   tech: ['HTML', 'CSS', 'WordPress'],
+  //   description:
+  //     "This is a multi-page, responsive, and dynamic website for a fictional marketing company. This site was built by creating custom templates in WordPress employing PHP.",
+  //   liveLink: '#',
+  //   githubLink: '#',
+  //   image: accelerate,
+  // },
+
   {
     id: 4,
-    title: 'Accelerate Website',
-    tech: ['HTML', 'CSS', 'WordPress'],
+    title: 'React Theme Widget',
+    tech: ['React', 'Javascript/JSX'],
     description:
-      "This is a multi-page, responsive, and dynamic website for a fictional marketing company. This site was built by creating custom templates in WordPress employing PHP.",
-    liveLink: '#',
-    githubLink: '#',
-    image: accelerate,
+      "An app that changes color and font theme preferences built by using specialized React hooks. Also uses React Router to feature a dynamic navigation bar based on user sign-in status.",
+    liveLink: 'https://react-context-themes.netlify.app/',
+    githubLink: 'https://github.com/Amy-Pr/react-usecontext-themes',
+    image: reactTheme
   },
 
   {

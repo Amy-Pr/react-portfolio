@@ -7,14 +7,10 @@ const About = () => {
       <h2>About Me</h2>
       <div>
         <p>
-
-          I am a passionate full-stack web developer who transforms ideas into
-          immersive digital experiences. With a blend of creativity and
-          technical expertise, I bridge the gap between design and
-          functionality, weaving code into seamless user journeys. My mission is
-          to turn your vision into a reality by building web solutions that not
-          only look stunning but also perform flawlessly. Let's embark on a
-          digital adventure together, where innovation knows no bounds.
+        Hi, I'm Amy. I am a web developer who specializes in Javascript and React. I love to code. 
+        I love languages, problem solving, and creating. Drawing from my diverse background as a speech-language 
+        therapist in telepractice and an editor for digital media, I’m inspired by digital tools that make a positive 
+        impact on our well-being and that create a joyful user experience.
         </p>
 
         <div className="image">
@@ -22,14 +18,15 @@ const About = () => {
         </div>
 
         <p>
-          As a full-stack web developer, I&apos;ve been on an exciting journey,
-          and it all began with Team Treehouse&apos;s TechDegree program.
-          Through their comprehensive curriculum and supportive community,
-          I&apos;ve had the immersive learning experience has empowered me to
-          craft a portfolio filled with impressive projects that showcase my
-          skills and creativity. Thanks to Team Treehouse, I&apos;ve not only
-          gained the knowledge and expertise, but also the confidence to tackle
-          any web development challenge that comes my way.
+        My journey began with the Break Into Tech program at Skillcrush where I completed an intensive learning track in 
+        Front-End Web Development. After completing the program, I broadened my knowledge base by diving deeper 
+        into the ins-and-outs of React and principles of UI/UX design. I have also expanded my skillset by joining the 
+        The Collab Lab and spending two months on a group project where I learned best practices of Agile development.
+        </p>
+
+        <p>
+        Web development to me is a non-stop learning experience, and I feel confident through these experiences that 
+        I can tackle any new project along the way. Let’s build something together!
         </p>
       </div>
 
