@@ -54,7 +54,7 @@ const projectList = [
     title: 'React Theme Widget',
     tech: ['React', 'Javascript/JSX'],
     description:
-      "An app that changes color and font theme preferences built by using specialized React hooks. Also uses React Router to feature a dynamic navigation bar based on user sign-in status.",
+      "Using specialized React hooks, this is an app that changes the user's color and font preferences. It also uses React Router to feature a dynamic navigation bar based on user sign-in status.",
     liveLink: 'https://react-context-themes.netlify.app/',
     githubLink: 'https://github.com/Amy-Pr/react-usecontext-themes',
     image: reactTheme
