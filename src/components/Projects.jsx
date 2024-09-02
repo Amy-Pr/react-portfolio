@@ -44,8 +44,8 @@ const projectList = [
   //   tech: ['HTML', 'CSS', 'WordPress'],
   //   description:
   //     "This is a multi-page, responsive, and dynamic website for a fictional marketing company. This site was built by creating custom templates in WordPress employing PHP.",
-  //   liveLink: '#',
-  //   githubLink: '#',
+  //   liveLink: 'https://amy-pr.github.io/accelerate-case-study/',
+  //   githubLink: 'https://github.com/Amy-Pr/203-accelerate',
   //   image: accelerate,
   // },
 
