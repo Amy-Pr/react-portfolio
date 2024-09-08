@@ -134,7 +134,7 @@ img {
 .about p,
 .project p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   line-height: 2;
   color: var(--body-text);
 }
@@ -269,7 +269,7 @@ header button:hover {
 
 .project .content p {
   margin-bottom: 1rem;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
