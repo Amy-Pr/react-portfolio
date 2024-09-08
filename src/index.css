@@ -191,6 +191,11 @@ header button:hover {
   font-size: 0.9rem;
 }
 
+.intro {
+  background: rgba(242, 242, 242, 0.8);
+  padding: 2rem;
+}
+
 /* ABOUT */
 
 .about p {
@@ -370,7 +375,9 @@ footer img {
   } */
 
   .intro {
-    padding-top: 5rem;
+    padding-top: 7rem;
+    background: none;
+
   }
 
   .project {
