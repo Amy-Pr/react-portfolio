@@ -77,8 +77,8 @@ const Projects = () => {
     <section id="projects" className="divider">
       <h2>My Projects</h2>
       <div>
-        {projectList.map((project, i) => (
-          <Project key={project.id} data={project}/> //reverse prop targets the even indexes
+        {projectList.map((project) => (
+          <Project key={project.id} data={project}/> 
         ))}
 
 
