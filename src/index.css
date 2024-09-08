@@ -14,7 +14,7 @@
   --body-text: #095256;
   --headings: #095256;
   --primary: #087e8b;
-  /* --primary-shadow: #06545d; */
+  --primary-shadow: #06545d;
   --secondary: #bdbf09;
   --secondary-shadow: #95972a; 
   --white: #ffffff;
@@ -239,7 +239,6 @@ header button:hover {
   width: 100%;
   height: auto;
   margin-bottom: 0.5rem;
-  /* aspect-ratio: 16/9; */
   border-radius: 4px;
   overflow: hidden;
   border: 1px solid #b7b7b7;
@@ -345,7 +344,6 @@ footer img {
 }
 
 /* MEDIA QUERIES */
-/* TODO: Fix hero section for tablet and phone sizes */
 
 @media (min-width: 1024px) {
   header button {
@@ -368,11 +366,6 @@ footer img {
     gap: 3rem;
   }
 
-  /* .hero {
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    text-align: left;
-  } */
 
   .intro {
     padding-top: 7rem;
@@ -441,9 +434,6 @@ footer img {
     margin-bottom: 1rem;
   }
 
-  /* footer {
-    padding-block: 3rem;
-  } */
 
   h1 {
     font-size: 4rem;
