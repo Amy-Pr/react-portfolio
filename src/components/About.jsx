@@ -19,8 +19,9 @@ const About = () => {
         <p>
         My journey began with the Break Into Tech program at Skillcrush where I completed an intensive learning track in 
         Front-End Web Development. After completing the program, I broadened my knowledge base by diving deeper 
-        into React hooks with courses from Treehouse and principles of UI/UX design through Skillcrush. I also joined the 
-        The Collab Lab and spent two months on a team project where I learned best practices of Agile development.
+        into Javascript and React hooks with courses from Treehouse. I also joined the 
+        The Collab Lab and spent two months on a team project where I learned best practices of Agile development. Currently, 
+        I am taking UI/UX design courses to deepen my understanding of user-centered design.
         </p>
 
         <p>
