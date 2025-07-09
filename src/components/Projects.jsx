@@ -1,5 +1,5 @@
 import smartShopping from "../assets/smart-shopping-img-resized.png";
-import guessWord from "../assets/guess-word-thumb.png";
+// import guessWord from "../assets/guess-word-thumb.png";
 import stickynotes from "../assets/sticky-notes-thumb.png";
 // import accelerate from "../assets/accelerate-thumb.png";
 import reactTheme from "../assets/react-context-thumb8.png";
