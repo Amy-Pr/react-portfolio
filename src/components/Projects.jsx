@@ -60,16 +60,16 @@ const projectList = [
     image: reactTheme
   },
 
-  {
-    id: 5,
-    title: 'Guess The Word Game',
-    tech: ['HTML', 'CSS', 'Javascript'],
-    description:
-      "This is an interactive game that prompts you to guess a random word. It is designed to be fully responsive and can be played on a mobile phone. Built with vanilla Javascript.",
-    liveLink: 'https://amy-pr.github.io/guess-the-word/',
-    githubLink: 'https://github.com/Amy-Pr/guess-the-word',
-    image: guessWord,
-  },
+  // {
+  //   id: 5,
+  //   title: 'Guess The Word Game',
+  //   tech: ['HTML', 'CSS', 'Javascript'],
+  //   description:
+  //     "This is an interactive game that prompts you to guess a random word. It is designed to be fully responsive and can be played on a mobile phone. Built with vanilla Javascript.",
+  //   liveLink: 'https://amy-pr.github.io/guess-the-word/',
+  //   githubLink: 'https://github.com/Amy-Pr/guess-the-word',
+  //   image: guessWord,
+  // },
 ];
 
 const Projects = () => {
